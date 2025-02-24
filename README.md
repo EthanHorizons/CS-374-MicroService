@@ -22,7 +22,7 @@ First the user needs run the server by putting 'run quotes.js' in terminal
 ## Example Requests & Response
 ### For a random quote:
 ```
-fetch('http://localhost:3001/quotesrandom', {
+fetch('http://localhost:3001/quotesRandom', {
   method: 'GET',
   headers: {
       'Content-Type: 'application/json',
