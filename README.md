@@ -19,7 +19,34 @@ First the user needs run the server by putting 'run quotes.js' in terminal
     - reflective
     - adventurous
     - contemplative
-## Exampe Requests & Response
+## Example Requests & Response
 ### For a random quote:
-
+```
+fetch('http://localhost:3001/quotesrandom', {
+  method: 'GET',
+  headers: {
+      'Content-Type: 'application/json',
+  }
+})
+  .then(response => response.json())
+  .then(data => {
+      const quote = data.quote;
+      console.log("Random Quote:", quote);
+    });
+```
+### For a quote that feels adventurous:
+```
+fetch('http://localhost:3001/quotes/adventurous', {
+  method: 'GET',
+  headers: {
+      'Content-Type: 'application/json',
+  }
+})
+  .then(response => response.json())
+  .then(data => {
+      const quote = data.quote;
+      console.log("Adventurous Quote:", quote);
+    });
+```
+~insert UML~
 
