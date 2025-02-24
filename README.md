@@ -48,5 +48,6 @@ fetch('http://localhost:3001/quotes/adventurous', {
       console.log("Adventurous Quote:", quote);
     });
 ```
-~insert UML~
+![image](https://github.com/user-attachments/assets/507c34ad-e8d5-4c4a-976d-e0a98505f69b)
+
 
