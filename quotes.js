@@ -51,7 +51,7 @@ const natureQuotes = {
       }
   });
   //route for random quote
-  app.get('/quotes/random', (req, res) => {
+  app.get('/quotesRandom', (req, res) => {
     const categories = Object.keys(natureQuotes);
     const randomCategory = categories[Math.floor(Math.random() * categories.length)];
     const quotes = natureQuotes[randomCategory];
