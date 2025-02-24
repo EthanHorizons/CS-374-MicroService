@@ -10,7 +10,7 @@ The developer can specify between different feelings of quotes by supplying the 
 First the user needs run the server by putting 'run quotes.js' in terminal
 
 ### For a random quote:
-- make a GET request using the URL:  'http://localhost:3001/quotesrandom'
+- make a GET request using the URL:  'http://localhost:3001/quotesRandom'
 ### For a random quote from a with a specific feeling:
 - make a GET request using the URL: 'http://localhost:3001/quotes/{category}
  - The List of categories are:
